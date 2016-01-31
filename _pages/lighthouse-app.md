@@ -6,10 +6,35 @@ lead_text: Helping refugees in distress share their location.
 
 ---
 
-We never thought of findin' a place where we belong. Don't have to stand alone, we'll never let you fall. Don't need permission to decide what you believe. You gotta learn something when we meet you after school. I said jump, down on Jump Street. I said jump, down on Jump Street. Your friends will be there when your back is to the wall. You'll find you'll need us cause there's no one else to call. When it was hopeless a decision is what you need. You'd better be ready cause' your runnin' outta time. Say jump, 21 Jump, Street.
+##The Problem
 
-They arrived in fifty mother ships, offering their friendship and advance technology to Earth. Skeptical of the visitors, Mike Donovan and Juliet Parrish infiltrated their ranks and soon discovered some startling secrets. The resistance is all that stands between us... and the visitors.
+The migrant crisis is a worldwide issue and is especially more pressing in the Greek coasts. Every day, there are hundreds of shipwrecked boats filled with refugees that wash up on the shore - dramatic scenarios. While discussing with reporters covering the story in Lesbos, I asked what could the tech community be doing? Their answer was that the camp organizers over there are overwhelmed: "There are so many boats that we can’t keep track of which ones need help. We would need a way to get alerts for passengers that are in distress."
 
-Once in every lifetime, comes a love like this. Oh I need you, you need me, oh my darling can't you see. Young Ones. Darling we're the Young Ones. Young Ones. Shouldn't be afraid. To live, love, there's a song to be sung. Cause we may not be the Young Ones very long.
+They assured me that due to the small strip of sea separating Turkey and Lesbos migrants travelling have access to cellular network and often a smartphone along the journey and roam all the way through.
+
+So came the idea for Lighthouse!
+
+
+##The Solution
+
+Lighthouse is a combination of a mobile app for migrants navigating and a cloud dashboard for the rescue teams on shore.
+
+When a boat is in distress, anyone with the application downloaded on their phone can launch it a press an alert button that will send their coordinates to the closest shore station.
 
 ![lighthouse](/img/lighthouse.gif)
+
+This station has access to a Lighthouse dashboard that monitors alerts in the filtered area. When rescue teams receive that alert, they can choose to acknowledge it - which will send a message to the migrant's mobile phone letting them know someone's coming (so they don't lose hope).
+
+##How It's Built
+
+*   The mobile app is developed with Ionic and AngularJS to provide a universal app for iOS, Android, Windows phone, and web access.
+
+*   The dashboard is an AngularJS application that uses the Google Maps API to place the alerts on the map along with a filter zone (to avoid spamming)
+
+*   All the alerts and rescue messages are sent and received using Firebase to provide a real-time communication system.
+
+*   Built with lots of love
+
+##Help out!
+
+[The code is now hosted on Github](https://github.com/codersontheroad) and we welcome all contributions
