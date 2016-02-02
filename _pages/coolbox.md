@@ -1,9 +1,10 @@
 ---
 layout: inner
-title: Coolbox
+title: Building an IoT connected food storage for the homeless.
 permalink: /coolbox/
-lead_text: Building an IoT connected food storage for the homeless.
-
+lead_text:
+featured_video_id:
+featured_image: /img/coolbox.png
 ---
 
 ##The problem

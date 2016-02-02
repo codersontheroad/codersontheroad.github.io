@@ -1,8 +1,10 @@
 ---
 layout: inner
-title: SignChat.io
+title: Translating sign language to text for the speech impaired.
 permalink: /signchat/
-lead_text: Translating sign language to text for the speech impaired.
+lead_text:
+featured_video_id:
+featured_image: /img/sc.png
 ---
 
 SignChat is a tool that allows the hearing impaired and people that communicate through sign language to quickly translate their gesture to text. It can be used for instant messaging or a Speech-To-Text0like software.
